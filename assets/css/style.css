@@ -162,7 +162,15 @@ a:hover {
     margin: 24px 0 40px 0;
 }
 
-
+.boldPara {
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
 
 /* common css ends here */
 
@@ -1203,6 +1211,7 @@ a:hover {
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
+    background-color: #FAFAFA;
 }
 
 .formFieldWrap {
@@ -1311,7 +1320,7 @@ a:hover {
     opacity: 0.6;
 }
 
-.footerListItem:hover{
+.footerListItem:hover {
     color: var(--Black);
 }
 
@@ -1334,11 +1343,11 @@ a:hover {
     opacity: 0.6;
 }
 
-.footerBrandLink:hover{
+.footerBrandLink:hover {
     color: var(--Black);
 }
 
-.footerListItem{
+.footerListItem {
     position: relative;
 }
 
@@ -1358,7 +1367,7 @@ a:hover {
     display: none;
 }
 
-.footerBottomWrapper{
+.footerBottomWrapper {
     padding: 7px 0;
 }
 
@@ -1851,3 +1860,515 @@ a:hover {
 }
 
 /* home page css ends here */
+
+/* pro shop page css starts here */
+.commonImageWrap {
+    position: relative;
+    padding-top: 75%;
+}
+
+.commonImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.commonTextWrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commonTextInnerWrap {
+    max-width: 680px;
+}
+
+.expectAtProshopSection {
+    margin: 80px 0 104px 0;
+}
+
+.expectAtProShopCard {
+    padding: 0 20px;
+}
+
+.expectAtProShopImage {
+    position: relative;
+    padding-top: 66%;
+}
+
+.expectAtProShopImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.expectAtProShopContent {
+    margin-top: 16px;
+}
+
+.expectAtProShopHeadingWrap {
+    margin-bottom: 72px;
+}
+
+.proShopExpectTitle {
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.whereToFindHeaderWrap {
+    margin-bottom: 56px;
+}
+
+.proShopLocationImageWrap {
+    position: relative;
+    padding-top: 50%;
+}
+
+.proShopLocationImageWrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proShopLocationTextWrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.proShopLocationTextInnerWrap {
+    max-width: 377px;
+    margin: 0 auto;
+}
+
+.proShopLocationTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.proShopLocationAddress {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.proShopLocationPhone {
+    color: var(--Blue-2);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.proShopLocationPhone:hover {
+    color: var(--Blue-2);
+}
+
+.whereToFindProShop {
+    margin-bottom: 80px;
+}
+
+.commonHeaderSection {
+    position: relative;
+    padding-top: 34%;
+}
+
+.commonHeaderSection .commonHeaderMedia {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.commonHeaderContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.commonHeroSection {
+    margin: 40px auto 64px auto;
+    padding: 0 15px;
+}
+
+.commonHeroWrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.typicalCoverageSection {
+    margin-bottom: 80px;
+}
+
+.typicalHeading {
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.typicalCoveragesWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 66px;
+    margin-top: 32px;
+}
+
+.typicalItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tickWrap {
+    flex: 0 0 32px;
+    height: 32px;
+}
+
+.tickWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.typicalCoverageTitle {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.formSection {
+    border-top: 1px solid #D9D9D9;
+    padding: 64px 0 120px 0;
+}
+
+.formHeadingWrap {
+    margin-bottom: 64px;
+}
+
+.mainFormWrapper {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.formSelectField {
+    background-image: url('../images/marine-insurance/dropdown.webp');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+/* pro shop page css ends here */
+
+/* parts page css starts here */
+.poweredByContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.poweredBImageWrap {
+    max-width: 150px;
+}
+
+.poweredBImageWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partsInfoBarWrapper {
+    background-color: var(--Blue-1);
+    padding: 28px 15px;
+}
+
+.partsInfoBarText {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.infoBarColorText {
+    color: var(--Blue-2);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.whatInStoreSection {
+    margin: 64px 0 120px 0;
+}
+
+.whatStoreCard {
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.whatStoreTitleWrap {
+    margin: 24px 0 12px 0;
+}
+
+.whatStoreBtnWrap {
+    margin-top: 64px;
+    text-align: center;
+}
+
+/* parts page css ends here */
+
+/* reviews page css starts here */
+.reviewCard {
+    margin: 0 20px 40px 20px;
+    background-color: #FAFAFA;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starsWrapper {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.starsWrapper img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.quotesWrapper {
+    max-width: 40px;
+    margin: 24px auto;
+}
+
+.quotesWrapper img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.reviewrName {
+    color: #000;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.reviewCardInnerWrap {
+    text-align: center;
+    padding: 40px 40px 27px 40px;
+}
+
+
+/* reviews page css ends here */
+
+/* staff page css starts here */
+.flexBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.staffCardSection {
+    margin-bottom: 120px;
+}
+
+.staffCard {
+    padding: 0 20px;
+}
+
+.staffImageWrap {
+    position: relative;
+    padding-top: 105%;
+}
+
+.staffImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.staffTextWrap {
+    background-color: #FAFAFA;
+    padding: 16px 15px 28px 15px;
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+}
+
+.staffName {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.staffInfo {
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.staffLocationBeforeLine {
+    position: relative;
+}
+
+.staffLocationBeforeLine::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #D9D9D9;
+    width: 1px;
+    height: 15px;
+}
+
+.staffPhone {
+    color: var(--Blue-2);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.staffPhone:hover {
+    color: var(--Blue-2);
+}
+
+/* staff page css ends here */
+
+/* financing page css starts here */
+.colorBoldText {
+    color: var(--Blue-2);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.financingformSection {
+    margin: 64px 0 80px 0;
+    min-height: 680px;
+    background-image: url("../images/financing/financing-bg-image.webp");
+    padding: 90px 15px;
+    position: relative;
+}
+
+.financingFormSection {
+    background-color: #fff;
+    padding: 48px 15px 62px 15px;
+    min-height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+}
+
+/* financing page css ends here */
+
+/* about page css starts here */
+.ourMissionTextWrap {
+    max-width: 440px;
+}
+
+.ourMissionCard {
+    display: flex;
+    gap: 24px;
+}
+
+.ourMissionCardTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.ourMissionAndValueSection{
+    margin: 80px 0;
+}
+
+.customMargin{
+    margin-bottom: 80px;
+}
+
+/* about page css ends here */
