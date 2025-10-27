@@ -1,0 +1,1323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Walker's Marine — Premium Boats and Marine Services.">
+    <meta name="author" content="Walker's Marine">
+    <title>Repower Mercury | Walker's Marine</title>
+
+    <!-- ======= Bootstrap CSS ======= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- ======= Owl Carousel CSS ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        referrerpolicy="no-referrer">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        referrerpolicy="no-referrer">
+
+    <!-- ======= Fancybox CSS ======= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ======= Custom Styles ======= -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="desktopHeader">
+        <div class="desktopHeaderInnerWrap">
+            <div class="desktopLogoWrap">
+                <a href="/"><img src="./assets/images/mega-menus/site-logo.webp" alt="site-logo"></a>
+            </div>
+
+            <div class="desktopNavRightSection">
+                <ul class="desktopNavLinkList">
+                    <li class="toggleBoatSalesMenu"><a href="javascript:void(0)" class="centralNavLink">Boat Sales</a>
+                    </li>
+                    <li><a id="header-sell-trade" href="javascript:void(0)" class="centralNavLink">SELL / Trade</a></li>
+                    <li class="toggleServiceMenu">
+                        <a id="header-service-dropdown" href="javascript:void(0)"
+                            class="centralNavLink dropdown-link"><span>Service</span></a>
+                    </li>
+                    <li><a id="header-events" href="/events" class="centralNavLink">Events</a></li>
+                    <li class="headerSearchWrap">
+                        <img src="./assets/images/mega-menus/search-icon-desktop.webp" alt="search-icon">
+                        <input type="text" class="headerSearchBox" placeholder="Search boats">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="selectStoreAndResourcesOptionWrap">
+                <div class="toggleStoreMenu">
+                    <div class="locationDropdown">
+                        <p>
+                            <img src="./assets/images/mega-menus/location-icon.webp" alt="location-icon">
+                        <h6 class="selectedStoreName">Your Store</h6>
+                        <img src="./assets/images/mega-menus/dropdow-icon.webp" alt="dropdow-icon">
+                        </p>
+                    </div>
+                    <p class="selectedStoreCity">Cape Coral, FL</p>
+                </div>
+
+                <div class="headerResourcesBox toggleResourcesMegaMenu">
+                    <a class="headerResourcesText" href="javascript:void(0)">Resources</a>
+                    <img class="resourcesIcon" src="./assets/images/mega-menus/burger-icon.webp" alt="cross-icon">
+                </div>
+            </div>
+
+            <!-- ================= STORE MENU INFO CARD ================= -->
+            <div class="selectStoreMenu" style="display:none;">
+                <div class="selectStoreInnerMenu">
+                    <h4 class="selectedStoreName">Walker's Marine</h4>
+                    <p class="selectedStoreAddress">123 Marina Blvd, Naples, FL 34102</p>
+                    <a href="tel:+1234567890" class="selectedStorePhoneNumber d-block mb-3">(123) 456-7890</a>
+
+                    <button class="blueBtn w-100" id="changeYourLocationClick">Change Your Store</button>
+                    <a href="javascript:void(0)" class="primaryWhiteBtn d-block mt-2 text-center"
+                        id="storeDetailsBtnClick">
+                        Location Details & Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Store Listing Modal -->
+            <div id="storeModalClick" class="availableStoreListingModal">
+                <div class="selectStoreModalTopBar">
+                    <h3 class="selectStoreModalHeading">Select a Store</h3>
+                    <div class="zipCodeSearchBarWrapper">
+                        <img src="./assets/images/mega-menus/select-store-search.png" alt="icon">
+                        <input id="storeSearchInput" type="text" class="zipCodeSearchInput"
+                            placeholder="Enter Zip Code">
+                        <button id="storeSearchBtn" class="storeSearchBtn" type="button">Search</button>
+                    </div>
+                    <a id="useCurrentLocation" href="javascript:void(0)" class="use-current-location">
+                        <i class="fa fa-map-marker"></i> Use my current location
+                    </a>
+                </div>
+
+                <div class="availableAndSelectedStoreCardsContainer">
+
+                    <!-- Example Store Card 1 -->
+                    <div class="availabelStoreCard" data-locationid="001" data-name="Naples Marina" data-dealerid="D001"
+                        data-address="123 Marina Blvd, Naples, FL 34102" data-phone="(123) 456-7890">
+                        <div class="selectedStoreCardInnerWrap">
+                            <div class="availableStoreInfoWrap">
+                                <h4 class="availableStoreTitle mb-3">Naples Marina</h4>
+                                <p class="availableStoreLocationPara">123 Marina Blvd, <br>Naples, FL 34102</p>
+                                <div class="mt-3">
+                                    <a href="tel:+1234567890" class="availableStorePhone">(123) 456-7890</a>
+                                </div>
+                            </div>
+                            <div class="availableStoreSecondaryPart">
+                                <a href="javascript:void(0)" class="black-to-gold-btn select-store-btn">Select Store</a>
+                                <a href="javascript:void(0)" class="whiteBtn">Location Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Example Store Card 2 -->
+                    <div class="availabelStoreCard" data-locationid="002" data-name="Marco Island Marina"
+                        data-dealerid="D002" data-address="456 Island Way, Marco Island, FL 34145"
+                        data-phone="(987) 654-3210">
+                        <div class="selectedStoreCardInnerWrap">
+                            <div class="availableStoreInfoWrap">
+                                <h4 class="availableStoreTitle mb-3">Marco Island Marina</h4>
+                                <p class="availableStoreLocationPara">456 Island Way, <br>Marco Island, FL 34145</p>
+                                <div class="mt-3">
+                                    <a href="tel:+19876543210" class="availableStorePhone">(987) 654-3210</a>
+                                </div>
+                            </div>
+                            <div class="availableStoreSecondaryPart">
+                                <a href="javascript:void(0)" class="black-to-gold-btn select-store-btn">Select Store</a>
+                                <a href="javascript:void(0)" class="whiteBtn">Location Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="close closeSelectStoreModal">
+                    <img src="./assets/images/mega-menus/cross-icon.webp" alt="icon">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ================= MOBILE HEADER ================= -->
+    <header class="mobileHeader">
+        <div class="mobileHeaderInnerWrap">
+            <div class="mobileLogoWrap">
+                <a href="/"><img src="./assets/images/site-logo/signleton-marine-logo.webp" alt="site-logo"></a>
+            </div>
+
+            <div class="mobileBurgerIconAndSearchIconWrap">
+                <div class="mobileSearchIconWrapper">
+                    <img src="./assets/images/mega-menus/search.webp" alt="search">
+                </div>
+                <div class="burgerBtnContainer">
+                    <div class="lineOne burgerLine"></div>
+                    <div class="lineTwo burgerLine"></div>
+                    <div class="lineThree burgerLine"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobileSearchBarWrapper">
+            <input type="text" class="mobileSearchBar" placeholder="Search year, make, model, or stock#">
+        </div>
+
+        <div class="mobileNavMegaMenu">
+            <div class="mainMobileMenuWrapper">
+                <div class="menuWrap">
+                    <div class="mainMenuMobileMenuLinkWrap">
+                        <ul class="mobileMenuLinkList">
+                            <li><a href="javascript:void(0)" class="mobileMenuLargeLink toggleMenu-boats">Boat Sales</a>
+                            </li>
+                            <li><a href="javascript:void(0)" class="mobileMenuLargeLink">Sell Your Boat</a></li>
+                            <li><a href="javascript:void(0)" class="mobileMenuLargeLink toggleMenu-service">Service</a>
+                            </li>
+                            <li><a href="javascript:void(0)" class="mobileMenuLargeLink">Events</a></li>
+                        </ul>
+                        <ul class="mobileMenuLinkList secondMobileMenuList">
+                            <li><a href="javascript:void(0)"
+                                    class="mobileMenuSmallLink toggleMenu-resources">Resources</a></li>
+                            <li><a href="javascript:void(0)" class="mobileMenuSmallLink">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submenus -->
+            <div class="subMobileMenus submenu-boats">
+                <div class="mobileMenuTopBar">
+                    <div class="mainMenuIconWrapper">
+                        <img src="./assets/images/mega-menus/mobile-back-arrow.webp" alt="mobile-arrow">
+                        <span class="mainMenuIconText">Main Menu</span>
+                    </div>
+                </div>
+                <div class="subMenuContentWrap">
+                    <h5 class="subMenuHeading mb-3">Boats</h5>
+                    <div class="subMenuLink"><a href="/boats-for-sale-mansfield-oh" class="subMenuLinkText">All
+                            Boats</a></div>
+                    <div class="subMenuLink"><a href="/new-boats-for-sale-mansfield-oh" class="subMenuLinkText">New
+                            Boats</a></div>
+                    <div class="subMenuLink"><a href="/used-pre-owned-boats-for-sale-mansfield-oh"
+                            class="subMenuLinkText">Pre-Owned Boats</a></div>
+                    <div class="subMenuLink"><a href="/boat-trailers-for-sale-mansfield-oh"
+                            class="subMenuLinkText">Specials</a></div>
+                    <div class="subMenuLink"><a href="/outborad-motors-for-sale" class="subMenuLinkText">Outboard
+                            Motors</a></div>
+                </div>
+            </div>
+
+            <div class="subMobileMenus submenu-service">
+                <div class="mobileMenuTopBar">
+                    <div class="mainMenuIconWrapper">
+                        <img src="./assets/images/mega-menus/mobile-back-arrow.webp" alt="mobile-arrow">
+                        <span class="mainMenuIconText">Main Menu</span>
+                    </div>
+                </div>
+                <div class="subMenuContentWrap">
+                    <h5 class="subMenuHeading mb-3">Service</h5>
+                    <div class="subMenuLink"><a href="/boat-service-repair-mansfield-oh" class="subMenuLinkText">Service
+                            Center</a></div>
+                    <div class="subMenuLink"><a href="/engine-repower-mansfield-oh" class="subMenuLinkText">Marina &
+                            Storage</a></div>
+                    <div class="subMenuLink"><a href="/boat-redocking-mansfield-oh" class="subMenuLinkText">Repower</a>
+                    </div>
+                    <div class="subMenuLink"><a href="/boat-parts-mansfield-oh" class="subMenuLinkText">Parts &
+                            Service</a></div>
+                </div>
+            </div>
+
+            <div class="subMobileMenus submenu-resources">
+                <div class="mobileMenuTopBar">
+                    <div class="mainMenuIconWrapper">
+                        <img src="./assets/images/mega-menus/mobile-back-arrow.webp" alt="mobile-arrow">
+                        <span class="mainMenuIconText">Main Menu</span>
+                    </div>
+                </div>
+                <div class="subMenuContentWrap">
+                    <h5 class="subMenuHeading mb-3">Resources</h5>
+                    <div class="subMenuLink"><a href="/about" class="subMenuLinkText">About</a></div>
+                    <div class="subMenuLink"><a href="/staff" class="subMenuLinkText">Meet The Team</a></div>
+                    <div class="subMenuLink"><a href="/blog" class="subMenuLinkText">News & Articles</a></div>
+                    <div class="subMenuLink"><a href="/reviews" class="subMenuLinkText">Reviews</a></div>
+                    <div class="subMenuLink"><a href="/careers" class="subMenuLinkText">Employment</a></div>
+                    <div class="subMenuLink"><a href="/contact" class="subMenuLinkText">Contact</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- boat sales mega menu starts here -->
+    <div class="boatsSalesMegaMenu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <ul class="boatSalesMenuList">
+                                <li><a href="/search" id="all-listing-menu" class="megaMenuLink">All Listings</a></li>
+                                <li><a href="/search/condition-New" id="new-inv-menu" class="megaMenuLink">New Boats for
+                                        Sale</a></li>
+                                <li><a href="/search/condition-Used" id="used-inv-menu" class="megaMenuLink">Pre-Owned
+                                        Boats For Sale</a></li>
+                                <li><a href="/specials" id="specials-menu" class="megaMenuLink">Specials</a></li>
+                            </ul>
+
+                            <ul class="boatSalesMenuList boatSalesSecondList">
+                                <li><a href="/financing" id="financing-menu" class="megaMenuLink">Get Financing</a></li>
+                                <li><a href="/marine-insurance" id="marine-menu" class="megaMenuLink">Marine
+                                        Insurance</a></li>
+                                <li><a href="/sell-trade" id="sellTrade-menu" class="megaMenuLink">Sell/Trade Your
+                                        Boat</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/axopar" id="axis-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/axopar.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/axopar-logo.webp"
+                                                        alt="axis-logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/cobia" id="barletta-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/cobia.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/cobia-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/evotti" id="cobalt-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/evotti.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/evotti-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/harris" id="malibu-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/harris.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/harris-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/hcb" id="prestige-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/hcb.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/hcb-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/regal" id="regal-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/pursuit.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/pursuit-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/regal" id="starcraft-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/regal.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/regal-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-3 px-0">
+                                        <a href="/brand/tiara" id="tiara-brand-header">
+                                            <div class="boatSalesMenuCard">
+                                                <img class="boatSalesMenuMedia"
+                                                    src="./assets/images/mega-menus/tiara.webp" alt="image">
+
+                                                <div class="boatSalesMenuLogoWrap">
+                                                    <img src="./assets/images/mega-menus/tiara-logo.webp" alt="logo">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boatSalesMenuCrossIcon">
+                <img src="./assets/images/mega-menus/cross-icon.webp" alt="cross-icon">
+            </div>
+        </div>
+    </div>
+    <!-- boat sales mega menu ends here -->
+
+    <!-- service mega menu starts here -->
+    <div class="servicesMegaMenu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-3 px-0">
+                            <a href="/service" id="service-department-header">
+                                <div class="serviceMenuCard">
+                                    <div class="serviceMenuCardInnerWrap">
+                                        <div class="serviceMenuCardImageWrap">
+                                            <img src="./assets/images/mega-menus/service-center.webp" alt="image">
+                                        </div>
+
+                                        <div class="serviceMenuCardContentWrap">
+                                            <h4 class="serviceMenuCardTitle">Service Center</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 px-0">
+                            <a href="/mercury-outboards" id="marina-storage-header">
+                                <div class="serviceMenuCard">
+                                    <div class="serviceMenuCardInnerWrap">
+                                        <div class="serviceMenuCardImageWrap">
+                                            <img src="./assets/images/mega-menus/mercury-outboards.webp" alt="image">
+                                        </div>
+
+                                        <div class="serviceMenuCardContentWrap">
+                                            <h4 class="serviceMenuCardTitle">Mercury Outboards</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 px-0">
+                            <a href="/yamaha-outboards" id="repower-header">
+                                <div class="serviceMenuCard">
+                                    <div class="serviceMenuCardInnerWrap">
+                                        <div class="serviceMenuCardImageWrap">
+                                            <img src="./assets/images/mega-menus/yamaha-outboards.webp" alt="image">
+                                        </div>
+
+                                        <div class="serviceMenuCardContentWrap">
+                                            <h4 class="serviceMenuCardTitle">Yamaha Outboards</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3 px-0">
+                            <a href="/parts" id="parts-accessories-header">
+                                <div class="serviceMenuCard">
+                                    <div class="serviceMenuCardInnerWrap">
+                                        <div class="serviceMenuCardImageWrap">
+                                            <img src="./assets/images/mega-menus/parts-and-accessories.webp"
+                                                alt="image">
+                                        </div>
+
+                                        <div class="serviceMenuCardContentWrap">
+                                            <h4 class="serviceMenuCardTitle">Parts & Accessories</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="serviceMenuCrossIcon">
+                <img src="./assets/images/mega-menus/cross-icon.webp" alt="cross-icon">
+            </div>
+        </div>
+    </div>
+    <!-- service mega menu ends here -->
+
+    <!-- resources mega menu starts here -->
+    <div class="resourcesMegaMenu">
+        <ul class="resourcesBoldLinkList">
+            <li><a href="/about" id="about-footer" class="resourcesBoldLink">About</a></li>
+            <li><a href="/special-offers" id="news-footer" class="resourcesBoldLink">Specials & Offers</a></li>
+            <li><a href="/blog" id="news-footer" class="resourcesBoldLink">News & Articles</a></li>
+            <li><a href="/staff" id="staff-footer" class="resourcesBoldLink">Meet Our Staff</a></li>
+        </ul>
+
+        <ul class="resourcesBoldLinkList mt-5">
+            <li><a href="/reviews" id="reviews-footer" class="resourcesLink">Reviews</a></li>
+            <li><a href="/" id="employement" class="resourcesLink">Employment</a></li>
+            <li><a href="/contact" id="contact" class="resourcesLink">Contact</a></li>
+        </ul>
+    </div>
+    <!-- resources mega menu ends here -->
+
+    <!-- repower page css starts here -->
+    <section>
+        <div class="repowerHeaderSection">
+            <div class="repowerHeaderMediaWrapper">
+                <img class="repowerHeaderMedia" src="./assets/images/repower-mercury/repower-mercruy-header.webp"
+                    alt="repower-mercruy-header">
+
+                <div class="headerContent">
+                    <h1 class="headerHeading">Repower Your Boat</h1>
+                    <div class="headerBtnWrap">
+                        <a href="javascript:void(0)" class="blueBtn">Request Repower</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="commonHeroSection">
+            <div class="commonHeroWrapper">
+                <h2 class="mainHeading mb-4">Mercury Outboard Motor Sales & Installation</h2>
+
+                <div class="repowerLogoWrap">
+                    <img src="./assets/images/repower-mercury/mercruy-logo.webp" alt="mercruy-logo">
+                </div>
+
+                <div class="paraWrapper">
+                    <p class="regularBlackPara">Walker’s Marine offers comprehensive repower services, specializing in
+                        the sale and installation of Mercury and Yamaha outboard motors. Whether you're looking to
+                        upgrade your existing engine or replace a worn-out unit, their experienced technicians provide
+                        expert guidance and installation to enhance your boat's performance.</p>
+
+                    <p class="regularBlackPara mt-3">Mercury Marine is renowned for delivering superior power,
+                        performance, and efficiency. Their outboards are purpose-built to withstand the rigors of
+                        boating, offering legendary reliability. Walker’s Marine's service offerings encompass a wide
+                        range of options, from routine maintenance to intricate repairs, all backed by Mercury’s
+                        reputation for quality and dependability.</p>
+
+                    <div class="btnWrap text-center">
+                        <a href="javascript:void(0)" class="blueBtn">Request Repower</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="repowerInfoSection">
+            <div class="repowerInfoCard">
+                <div class="repowrInfoIconWrap">
+                    <img src="./assets/images/repower-mercury/tick.webp" alt="tick">
+                </div>
+
+                <div class="repowerInfoTextWrap">
+                    <p class="regularBlackPara text-left">At Walker’s Marine, we stand behind every engine we install.
+                        From expert selection to certified installation, we guarantee your new power system will deliver
+                        reliable performance, improved efficiency, and complete peace of mind so you can enjoy every
+                        moment on the water with confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="repowerServiceSpecialSection">
+            <div class="headingWrap">
+                <h3 class="mainHeading">Service Specials</h3>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="homeEventCard">
+                            <div class="serviceSpecialImageWrap">
+                                <a href="javascript:void(0)"><img src="./assets/images/service/grey.webp"
+                                        alt="image"></a>
+                            </div>
+
+                            <div class="homeEventContentWrap">
+                                <a href="javascript:void(0)">
+                                    <h4 class="homeEventTitle">Fall Service EarlyBird Savings</h4>
+                                </a>
+                                <p class="regularBlackPara mt-2">Schedule your Fall maintenance early and enjoy
+                                    exclusive discounts on service and storage.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="locationPageSeparator">
+
+    <section>
+        <div class="mercuryOutBoardModelSection">
+            <div class="repowerHeadingWrap">
+                <h3 class="mainHeading">Mercury Outboard Models</h3>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-11 mx-auto">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-1.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-2.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-3.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-4.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-1.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-2.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-3.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-4.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-1.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-2.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-3.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-4.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-3.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 px-0">
+                                <div class="repowerModelCard">
+                                    <div class="repowerModelImageWrap">
+                                        <a href="javascript:void(0)"><img
+                                                src="./assets/images/repower-mercury/engine-4.webp"
+                                                alt="model-image"></a>
+                                    </div>
+
+                                    <div class="repowerTextWrap">
+                                        <a href="javascript:void(0)">
+                                            <h4 class="repowerCardTitle">Make Model</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="pageForm">
+        <div class="formSection">
+            <div class="formHeadingWrap">
+                <h5 class="mainHeading mb-4">Request Repower</h5>
+            </div>
+            <div class="secondaryMainFormWrapper">
+                <div class="formFieldWrap">
+                    <label for="location" class="sr-only">Location</label>
+                    <div class="field-error" id="error_location"></div>
+                    <select class="formField formSelectField require_check" name="location" id="location">
+                        <option selected disabled>Select a Location</option>
+                        <option value="Location 1">Location 1</option>
+                        <option value="Location 2">Location 2</option>
+                        <option value="Location 3">Location 3</option>
+                        <option value="Location 4">Location 4</option>
+                    </select>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 px-0">
+                            <div class="formFieldWrap">
+                                <label for="firstName" class="sr-only">First Name</label>
+                                <div class="field-error" id="error_firstName"></div>
+                                <input class="formField require_check" type="text" id="fir" placeholder="First Name*">
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 px-0">
+                            <div class="formFieldWrap">
+                                <label for="lastName" class="sr-only">Last Name</label>
+                                <div class="field-error" id="error_lastName"></div>
+                                <input class="formField require_check" type="text" id="fir" placeholder="Last Name*">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0">
+                            <div class="formFieldWrap">
+                                <label for="email" class="sr-only">Email</label>
+                                <div class="field-error" id="error_email"></div>
+                                <input class="formField require_check" type="text" id="email" placeholder="Email *">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0">
+                            <div class="formFieldWrap">
+                                <label for="phone" class="sr-only">Phone</label>
+                                <div class="field-error" id="error_phone"></div>
+                                <input class="formField require_check" type="text" id="Phone" placeholder="Phone*">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0">
+                            <div class="formFieldWrap">
+                                <label for="address" class="sr-only">Address</label>
+                                <div class="field-error" id="error_address"></div>
+                                <input class="formField require_check" type="text" id="address" placeholder="Address*">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0">
+                            <div class="formFieldWrap">
+                                <label for="city" class="sr-only">City</label>
+                                <div class="field-error" id="error_city"></div>
+                                <input class="formField require_check" type="text" id="city" placeholder="City*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap">
+                                <label for="state" class="sr-only">State</label>
+                                <div class="field-error" id="error_state"></div>
+                                <input class="formField require_check" type="text" id="state" placeholder="State*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap">
+                                <label for="zipCode" class="sr-only">Zip Code</label>
+                                <div class="field-error" id="error_zipCode"></div>
+                                <input class="formField require_check" type="text" id="zipCode" placeholder="Zip Code*">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0">
+                            <div class="formInnerHeadingWrap customMarginForFormField">
+                                <h5 class="formInnerHeading">Boat Info</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="boatYear" class="sr-only">Year</label>
+                                <div class="field-error" id="error_boatYear"></div>
+                                <input class="formField require_check" type="text" id="boatYear" placeholder="Year*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="boatMake" class="sr-only">Make</label>
+                                <div class="field-error" id="error_boatMake"></div>
+                                <input class="formField require_check" type="text" id="boatMake" placeholder="Make*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="boatModel" class="sr-only">Model</label>
+                                <div class="field-error" id="error_boatModel"></div>
+                                <input class="formField require_check" type="text" id="boatModel" placeholder="Model*">
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="boatLength" class="sr-only">Length</label>
+                                <div class="field-error" id="error_boatMode;"></div>
+                                <input class="formField require_check" type="text" id="boatLength"
+                                    placeholder="Length in Ft.*">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0">
+                            <div class="formInnerHeadingWrap customMarginForFormField">
+                                <h5 class="formInnerHeading">Engine</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="engineManufacture" class="sr-only">Engine Manufacturer</label>
+                                <div class="field-error" id="error_engineManufacture"></div>
+                                <input class="formField require_check" type="text" id="engineManufacture"
+                                    placeholder="Engine Manufacturer*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="engineModel" class="sr-only">Engine Model</label>
+                                <div class="field-error" id="error_engineModel"></div>
+                                <input class="formField require_check" type="text" id="engineModel"
+                                    placeholder="Engine Model*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="engineType" class="sr-only">Engine Type</label>
+                                <div class="field-error" id="error_engineType"></div>
+                                <input class="formField require_check" type="text" id="engineType"
+                                    placeholder="Engine Type*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 px-0">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <label for="engineHours" class="sr-only">Engine Hours</label>
+                                <div class="field-error" id="error_engineHours"></div>
+                                <input class="formField require_check" type="text" id="engineHours"
+                                    placeholder="Engine Hours*">
+                            </div>
+                        </div>
+
+                        <div class="col-12 px-0 mt-4">
+                            <div class="formFieldWrap customMarginForFormField">
+                                <textarea class="formField" name="serviceNeeds" id="serviceNeeds" rows="1"
+                                    placeholder="Describe Service Needs"></textarea>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="btnWrap text-center">
+                    <button class="blueBtn">Send Request</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- repower page css ends here -->
+
+    <footer>
+        <div class="footerWrapper">
+            <div class="newsLetterSection">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-10 mx-auto">
+                            <div class="row">
+                                <div class="col-lg-6 mb-5 mb-lg-0">
+                                    <div class="newsLetterTextWrapper">
+                                        <div class="newsLetterTextInnerWrap">
+                                            <h5 class="mainHeading">Stay connected to the Walker's Marine Experience
+                                            </h5>
+
+                                            <div class="paraWrapper">
+                                                <p class="regularBlackPara">Be the first to receive exclusive updates,
+                                                    sales promotions, event invitations, and stories from the
+                                                    water—delivered directly to your inbox. Sign up today and stay
+                                                    connected to the quality, innovation, and lifestyle at Singleton
+                                                    Marine.</p>
+                                            </div>
+
+                                            <div class="socailWrap">
+                                                <h5 class="socailHeading">Find us on Social</h5>
+                                                <div class="mt-4 socailIconsContainer">
+                                                    <a href="javascript:void(0)">
+                                                        <div class="socialIconWrap">
+                                                            <i class="fa-brands fa-facebook-f"></i>
+                                                        </div>
+                                                    </a>
+
+                                                    <a href="javascript:void(0)">
+                                                        <div class="socialIconWrap">
+                                                            <i class="fa-brands fa-instagram"></i>
+                                                        </div>
+                                                    </a>
+
+                                                    <a href="javascript:void(0)">
+                                                        <div class="socialIconWrap">
+                                                            <i class="fa-brands fa-youtube"></i>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="newsLetterFormWrapper">
+                                        <div class="formFieldWrap">
+                                            <label for="firstName" class="sr-only">First Name</label>
+                                            <div class="field-error" id="error_firstName"></div>
+                                            <input class="formField require_check" type="text" id="fir"
+                                                placeholder="First Name*">
+                                        </div>
+
+                                        <div class="formFieldWrap">
+                                            <label for="lastName" class="sr-only">Last Name</label>
+                                            <div class="field-error" id="error_lastName"></div>
+                                            <input class="formField require_check" type="text" id="fir"
+                                                placeholder="Last Name*">
+                                        </div>
+
+                                        <div class="formFieldWrap">
+                                            <label for="newsZipCode" class="sr-only">Zip Code</label>
+                                            <div class="field-error" id="error_newsZipCode"></div>
+                                            <input class="formField require_check" type="text" id="newsZipCode"
+                                                placeholder="Zip code where you do your boating*">
+                                        </div>
+
+                                        <div class="formFieldWrap">
+                                            <label for="newsEmail" class="sr-only">Email</label>
+                                            <div class="field-error" id="error_newsEmail"></div>
+                                            <input class="formField require_check" type="text" id="newsEmail"
+                                                placeholder="Last Name*">
+                                        </div>
+
+                                        <div class="formFieldWrap">
+                                            <label for="phone" class="sr-only">Phone</label>
+                                            <div class="field-error" id="error_phone"></div>
+                                            <input class="formField require_check" type="text" id="Phone"
+                                                placeholder="Phone*">
+                                        </div>
+
+                                        <div class="text-center mt-4">
+                                            <button class="blueBtn">Join Newsletter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerSiteMapSection">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-11 mx-auto">
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="footerLogoWrapper">
+                                                <a href="/"><img src="./assets/images/mega-menus/site-logo.webp"
+                                                        alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-8">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="siteMapItem">
+                                                            <div class="siteMapHeadingWrap">
+                                                                <h6 class="siteMapHeading">Sales</h6>
+                                                            </div>
+
+                                                            <ul class="siteMapLinkList">
+                                                                <li><a href="javascript:void(0)" class="siteMapLink">New
+                                                                        Boats</a></li>
+
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Pre-Owned Boats</a></li>
+                                                                <li><a href="javascript:void(0)" class="siteMapLink">Get
+                                                                        Financing</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Sell/Trade Your Boat</a>
+                                                                </li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Outboard Engines</a></li>
+                                                                <li><a href="javascript:void(0)" class="siteMapLink">Pro
+                                                                        Shop</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="siteMapItem">
+                                                            <div class="siteMapHeadingWrap">
+                                                                <h6 class="siteMapHeading">Service</h6>
+                                                            </div>
+
+                                                            <ul class="siteMapLinkList">
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Service Center</a></li>
+
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Repower</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Parts & Accessories</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="siteMapItem">
+                                                            <div class="siteMapHeadingWrap">
+                                                                <h6 class="siteMapHeading">Resources</h6>
+                                                            </div>
+
+                                                            <ul class="siteMapLinkList">
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">About Us</a></li>
+
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Events & Promotions</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">News & Articles</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Testimonials</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Meet the Crew</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Join Our Team</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="siteMapItem">
+                                                            <div class="siteMapHeadingWrap">
+                                                                <h6 class="siteMapHeading">Locations</h6>
+                                                            </div>
+
+                                                            <ul class="siteMapLinkList">
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Cape Coral</a></li>
+
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Fort Myers</a></li>
+                                                                <li><a href="javascript:void(0)" class="siteMapLink">FMB
+                                                                        at Fish-Tale Marina</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Marco Island</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Marco Island Used Boats</a>
+                                                                </li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Naples</a></li>
+                                                                <li><a href="javascript:void(0)"
+                                                                        class="siteMapLink">Contact Us</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="discalimerSection">
+                <div class="container-fluid">
+                    <div class="col-xl-11 mx-auto">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="disclaimerWrapper">
+                                    <p class="regularBlackPara text-left">We strive to ensure all pricing and
+                                        information contained in this website is accurate. Despite our efforts,
+                                        occasionally errors resulting from typos, inaccurate detail information or
+                                        technical mistakes may occur. We are not responsible for any such errors and
+                                        reserve the right to correct them at any time.</p>
+
+                                    <p class="regularBlackPara text-left mt-4">This site is protected by reCAPTCHA and
+                                        the Google <a href="javascript:void(0)">Privacy Policy</a>and <a
+                                            href="javascript:void(0)">Terms of Service</a> Apply.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="disclaimerWrapper">
+                                    <p class="regularBlackPara text-left">We improve our products and advertising by
+                                        using Microsoft Clarity to see how you use our website. By using our site, you
+                                        agree that we and Microsoft can collect and use this data. Our <a
+                                            href="javascript:void(0)">privacy statement</a> has more details.</p>
+
+                                    <p class="regularBlackPara text-left mt-3">*By clicking submit, you consent to allow
+                                        us to store and process your information in accordance with our privacy policy.
+                                        You can manage your preferences or unsubscribe at any time via the links at the
+                                        bottom of emails. Visit our privacy policy to learn about our information
+                                        practices and your privacy rights.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerBottomWrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-11 mx-auto">
+                            <div class="footerBottomInnerWrap">
+                                <ul class="footerBottomList">
+                                    <li><a class="footerListItem" href="javascript:void(0)">Privacy Policy</a></li>
+                                    <li><a class="footerListItem" id="footer-mds-brand-button"
+                                            href="https://mdsbrand.com/" target="_blank">Terms Of Use</a>
+                                    </li>
+                                    <li><a class="footerListItem" href="/privacypolicy">Cookie Policy
+                                            Disclaimer</a></li>
+                                    <li><a class="footerListItem" href="/privacypolicy">Accessibility
+                                            Statement</a></li>
+                                    <li><a class="footerListItem" href="/privacypolicy">Acceptable Use
+                                            Policy</a></li>
+                                    <li><a class="footerListItem" href="/privacypolicy">Do Not Sell My
+                                            Info</a></li>
+                                </ul>
+
+                                <div>
+                                    <a class="footerBrandLink" href="https://mdsbrand.com/" target="_blank">Powered by
+                                        MDS Brand</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======= Script Dependencies ======= -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
