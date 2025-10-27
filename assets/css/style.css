@@ -44,7 +44,7 @@ a:hover {
 }
 
 .primaryWhiteBtn {
-    color: var(--Blue-1, #203A71);
+    color: var(--Blue-1);
     text-align: center;
     font-family: Lexend;
     font-size: 16px;
@@ -103,7 +103,7 @@ a:hover {
     line-height: 24px;
     text-transform: uppercase;
     border-radius: 30px;
-    background-color: var(--Blue-1, #203A71);
+    background-color: var(--Blue-1);
     padding: 12px 40px;
     display: inline-flex;
     align-items: center;
@@ -291,7 +291,7 @@ a:hover {
 }
 
 .selectedStoreName {
-    color: var(--Blue-1, #203A71);
+    color: var(--Blue-1);
     text-align: right;
     font-family: Lexend;
     font-size: 14px;
@@ -307,7 +307,7 @@ a:hover {
 }
 
 .storeLocationName {
-    color: var(--Black, #000);
+    color: var(--Black);
     text-align: right;
     font-family: Lexend;
     font-size: 12px;
@@ -344,7 +344,7 @@ a:hover {
 }
 
 .selectStoreModalHeading {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 48px;
     font-style: normal;
@@ -354,7 +354,7 @@ a:hover {
 
 .zipCodeSearchBarWrapper {
     padding: 12px 16px 11px 16px;
-    border: 1px solid var(--black-color);
+    border: 1px solid var(--Black);
     display: flex;
     align-items: flex-end;
     gap: 16px;
@@ -363,7 +363,7 @@ a:hover {
 .zipCodeSearchInput {
     border: none;
     outline: none;
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 14px;
     font-style: normal;
@@ -398,7 +398,7 @@ a:hover {
 }
 
 .selectedStoreTitle {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: "Urbane-Medium";
     font-size: 18px;
     font-style: normal;
@@ -407,7 +407,7 @@ a:hover {
 }
 
 .selectedStoreLocationPara {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -422,7 +422,7 @@ a:hover {
 }
 
 .selectedStoreCity {
-    color: var(--Blue-1, #203A71);
+    color: var(--Blue-1);
     font-family: Lexend;
     font-size: 12px;
     font-style: normal;
@@ -446,7 +446,7 @@ a:hover {
 }
 
 .selectedStorePhone {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     text-align: right;
     font-size: 24px;
@@ -456,7 +456,7 @@ a:hover {
 }
 
 .selectedStorePhone:hover {
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 .availabelStoreCard {
@@ -475,7 +475,7 @@ a:hover {
 
 
 .availableStoreTitle {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: "Urbane-Medium";
     font-size: 18px;
     font-style: normal;
@@ -484,7 +484,7 @@ a:hover {
 }
 
 .availableStoreLocationPara {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -493,7 +493,7 @@ a:hover {
 }
 
 .availableStorePhone {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: "Urbane-Medium";
     font-size: 18px;
     font-style: normal;
@@ -502,7 +502,7 @@ a:hover {
 }
 
 .availableStorePhone:hover {
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 .availableStoreSecondaryPart {
@@ -560,7 +560,7 @@ a:hover {
     line-height: 24px;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 
@@ -652,7 +652,7 @@ a:hover {
 }
 
 .mobileSearchBar {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -660,10 +660,10 @@ a:hover {
     line-height: 24px;
     width: 100%;
     outline: none;
-    border-top: 1px solid var(--black-color);
-    border-left: 1px solid var(--black-color);
-    border-bottom: 1px solid var(--black-color);
-    border-right: 1px solid var(--black-color);
+    border-top: 1px solid var(--Black);
+    border-left: 1px solid var(--Black);
+    border-bottom: 1px solid var(--Black);
+    border-right: 1px solid var(--Black);
     padding: 8px 24px;
 }
 
@@ -735,7 +735,7 @@ a:hover {
 }
 
 .subMenuHeading {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 24px;
     font-style: normal;
@@ -748,7 +748,7 @@ a:hover {
 }
 
 .subMenuLinkText {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -761,7 +761,7 @@ a:hover {
 }
 
 .mobileBoatsMenuCard {
-    border: 1px solid var(--black-color);
+    border: 1px solid var(--Black);
     background: var(--White);
     display: flex;
     align-items: center;
@@ -818,7 +818,7 @@ a:hover {
 }
 
 .mobileMenuLargeLink {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 24px;
     font-style: normal;
@@ -827,7 +827,7 @@ a:hover {
 }
 
 .mobileMenuLargeLink:hover {
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 .secondMobileMenuList {
@@ -835,7 +835,7 @@ a:hover {
 }
 
 .mobileMenuSmallLink {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -844,7 +844,7 @@ a:hover {
 }
 
 .mobileMenuSmallLink:hover {
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 
@@ -873,7 +873,7 @@ a:hover {
 }
 
 .megaMenuLink {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -882,7 +882,7 @@ a:hover {
 }
 
 .megaMenuLink:hover {
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 .boatSalesSecondList {
@@ -987,7 +987,7 @@ a:hover {
 }
 
 .serviceMenuCardTitle {
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -1066,7 +1066,7 @@ a:hover {
 }
 
 .selectedstoreName {
-    color: var(--Blue-1, #203A71);
+    color: var(--Blue-1);
     text-align: right;
     font-family: Lexend;
     font-size: 14px;
@@ -1076,7 +1076,7 @@ a:hover {
 }
 
 .selectedStoreAddress {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -1091,7 +1091,7 @@ a:hover {
 }
 
 .selectedStorePhoneNumber {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 32px;
     font-style: normal;
@@ -1100,7 +1100,7 @@ a:hover {
 }
 
 .selectedStoreInfoPara {
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -1134,7 +1134,7 @@ a:hover {
 }
 
 .resourcesBoldLink {
-    color: var(--black-color);
+    color: var(--Black);
     text-align: right;
     font-family: Lexend;
     font-size: 18px;
@@ -1144,7 +1144,7 @@ a:hover {
 }
 
 .resourcesBoldLink:hover {
-    color: var(--black-color);
+    color: var(--Black);
 }
 
 .resourcesBoldLinkList li {
@@ -1153,7 +1153,7 @@ a:hover {
 }
 
 .resourcesLink {
-    color: var(--black-color);
+    color: var(--Black);
     text-align: right;
     font-family: Lexend;
     font-size: 16px;
@@ -1230,7 +1230,7 @@ a:hover {
     border: none;
     outline: none;
     width: 100%;
-    color: var(--black-color);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -1992,7 +1992,7 @@ a:hover {
 }
 
 .proShopLocationAddress {
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -2097,7 +2097,7 @@ a:hover {
 }
 
 .typicalCoverageTitle {
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -2284,7 +2284,7 @@ a:hover {
 }
 
 .staffName {
-    color: var(--Black, #000);
+    color: var(--Black);
     text-align: center;
     font-family: Lexend;
     font-size: 24px;
@@ -2442,7 +2442,7 @@ a:hover {
 }
 
 .buyStepTitle {
-    color: var(--Black, #000);
+    color: var(--Black);
     text-align: center;
     font-family: Lexend;
     font-size: 24px;
@@ -2467,7 +2467,7 @@ a:hover {
 }
 
 .whySellText {
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -2503,7 +2503,7 @@ a:hover {
 }
 
 .promiseCardTitle {
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 18px;
     font-style: normal;
@@ -2549,7 +2549,7 @@ a:hover {
 }
 
 .resumeFormInput {
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -2628,7 +2628,7 @@ a:hover {
 }
 
 .contactLocationInnerHeading {
-    color: var(--Black, #000);
+    color: var(--Black);
     text-align: center;
     font-family: Lexend;
     font-size: 18px;
@@ -2637,8 +2637,276 @@ a:hover {
     line-height: 24px;
 }
 
-.contactBtnWrap{
+.contactBtnWrap {
     margin-top: 32px;
 }
 
 /* contact page css ends here */
+
+/* service page css starts here */
+.serviceSpecialImageWrap {
+    position: relative;
+    padding-top: 38%;
+}
+
+.serviceSpecialImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceCarousel {
+    position: relative;
+}
+
+.serviceCarousel .owl-prev {
+    position: absolute;
+    left: -5%;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.serviceCarousel .owl-next {
+    position: absolute;
+    right: -5%;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.topServiceCard {
+    padding: 0 20px;
+}
+
+.serviceImageWrap {
+    position: relative;
+    padding-top: 50%;
+}
+
+.serviceImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceContentWrap {
+    margin-top: 16px;
+}
+
+.topServiceCardTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.topServiceSection {
+    margin: 80px 0 120px 0;
+}
+
+.serviceLocationCard {
+    padding: 0 20px;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.serviceLocationCardContent {
+    background-color: #fff;
+    padding: 16px 15px 15px 0;
+    position: absolute;
+    left: 20px;
+    bottom: -20%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.serviceLocationTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.serviceLocationPhone {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.serviceLocationPhone:hover {
+    color: var(--Black);
+}
+
+.serviceLocationMapWrap {
+    min-height: 300px;
+}
+
+.serviceLocationMapWrap iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 300px;
+}
+
+.serviceFeatureSection {
+    padding: 100px 0 80px 0;
+    background-color: #FAFAFA;
+    margin-top: 40px;
+}
+
+.partsImageWrap {
+    position: relative;
+    padding-top: 56%;
+}
+
+.partsImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.partsTextWrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partsTextInnerWrap {
+    max-width: 600px;
+}
+
+.partsSection {
+    margin: 80px 0;
+}
+
+.tabsWrapper {
+    margin: 40px 0px;
+}
+
+.infoTab {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 20px;
+    background: #FFF;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid var(--Blue-2, #1892AA);
+    background: var(--White, #FFF);
+}
+
+.infoTabName h4 {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.tabsContent {
+    padding: 40px 40px 79px 40px;
+    border-radius: 16px;
+    border: 1px solid #EEE;
+    background-color: #FAFAFA;
+}
+
+.tabsDetailsHeader {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.tabsDetails {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tabsDetailsImg {
+    margin-top: 40px;
+}
+
+.tabsContentImgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tabsContentLogoContainer {
+    max-width: 200px;
+}
+
+.tabsContentLogoContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tabsDetails {
+    display: none;
+}
+
+.tabsDetailsContent ul {
+    padding-left: 30px;
+}
+
+.tabsNote {
+    margin-top: 40px;
+}
+
+.tabsNote p {
+    color: #231F20;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.tabsSec {
+    margin: 60px auto;
+    max-width: 1500px;
+}
+
+.tabsDetailImageWrap {
+    position: relative;
+    padding-top: 44%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.tabsDetailImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.smallHeading {
+    color: var(--Blue-2);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* service page css ends here */

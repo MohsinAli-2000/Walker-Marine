@@ -159,7 +159,7 @@ $(document).ready(function () {
         $('.homeEventCarousel').owlCarousel({
             loop: true,
             margin: 20,
-            navText: ['<img src="/assets/images/home/prev-arrow.webp" alt="prev"/>', '<img src="/assets/images/home/next-arrow.webp" alt="next"/>'],
+            navText: ['<img src="./assets/images/home/prev-arrow.webp" alt="prev"/>', '<img src="./assets/images/home/next-arrow.webp" alt="next"/>'],
             nav: true,
             dots: false,
             responsive: {
@@ -196,5 +196,58 @@ $(document).ready(function () {
         });
     }
     // sell trade code ends here
+    // ================================++++++++++++++++++++====================
+
+    // ================================++++++++++++++++++++====================
+    // service page code starts here
+    if ($('.serviceCarousel').length) {
+        $('.serviceCarousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            navText: ['<img src="./assets/images/home/prev-arrow.webp" alt="prev"/>', '<img src="./assets/images/home/next-arrow.webp" alt="next"/>'],
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+    }
+
+    const activeBorder = "1px solid #1892AA";
+    const inactiveBorder = "1px solid #000";
+    const activeColor = "#1892AA";
+    const inactiveColor = "#000";
+    const activeIcon = "./assets/images/service/blue-arrow.webp";
+    const inactiveIcon = "./assets/images/service/black-arrow.webp";
+
+    const tabsDetails = document.querySelectorAll(".tabsDetails");
+    const infoTabs = document.querySelectorAll(".infoTab");
+    const infoTabTexts = document.querySelectorAll(".infoTabName h4");
+    const infoTabIcons = document.querySelectorAll(".infoTabIcon img");
+
+    function showTab(index) {
+        tabsDetails.forEach((d, i) => d.style.display = i === index ? "block" : "none");
+        infoTabs.forEach((t, i) => t.style.border = i === index ? activeBorder : inactiveBorder);
+        infoTabTexts.forEach((txt, i) => txt.style.color = i === index ? activeColor : inactiveColor);
+        infoTabIcons.forEach((icon, i) => icon.src = i === index ? activeIcon : inactiveIcon);
+
+        const offsetTop = tabsDetails[index].getBoundingClientRect().top + window.scrollY - 200;
+        window.scrollTo({ top: offsetTop, behavior: "smooth" });
+    }
+
+    // init first tab
+    if (infoTabs.length) showTab(0);
+
+    // add click events
+    infoTabs.forEach((tab, i) => tab.addEventListener("click", () => showTab(i)));
+    // service page code ends here
     // ================================++++++++++++++++++++====================
 })
