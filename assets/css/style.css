@@ -1,0 +1,1853 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/* common css starts here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul,
+dl,
+fieldset,
+pre {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+:root {
+    --Light-Gray: #D9D9D9;
+    --Blue-1: #203A71;
+    --Blue-2: #1892AA;
+    --Black: #000;
+    --White: #FFF;
+}
+
+@font-face {
+    font-family: "LTC Metropolitan Pro";
+    src: url('../fonts/LTC-Metropolitan-Pro/LTC-metropolitan-pro.ttf');
+}
+
+.primaryWhiteBtn {
+    color: var(--Blue-1, #203A71);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid var(--Blue-2, #1892AA);
+    background: var(--White, #FFF);
+    padding: 12px 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.primaryWhiteBtn:hover {
+    background-color: var(--Blue-2, #1892AA);
+    color: var(--White);
+}
+
+.secondaryWhiteBtn {
+    color: var(--Blue-2, #1892AA);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: var(--White, #FFF);
+    padding: 12px 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.secondaryWhiteBtn:hover {
+    background-color: var(--Blue-2, #1892AA);
+    color: var(--White);
+}
+
+
+.blueBtn {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: var(--Blue-1, #203A71);
+    padding: 12px 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+    outline: none;
+    border: 1px solid var(--Blue-1, #203A71);
+}
+
+.blueBtn:hover {
+    background-color: var(--Blue-2, #1892AA);
+    border: 1px solid var(--Blue-2, #1892AA);
+    color: var(--White);
+}
+
+.exclusiveSection {
+    margin: 64px 0 120px 0;
+}
+
+.regularBlackPara {
+    color: #000;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.mainHeading {
+    color: var(--Blue-1);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.regularWhitePara {
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.headingWrap {
+    margin-bottom: 42px;
+}
+
+.paraWrapper {
+    margin: 24px 0 40px 0;
+}
+
+
+
+/* common css ends here */
+
+/* desktop nav css starts here */
+.desktopHeader {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 80px 21px 80px;
+    z-index: 15;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.25);
+}
+
+.centralNavLink {
+    color: #203A71;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.headerSearchWrap {
+    border-radius: 30px;
+    border: 1px solid var(--Light-Gray, #D9D9D9);
+    padding: 12px 16px;
+    border-radius: 30px;
+}
+
+.selectStoreAndResourcesOptionWrap {
+    display: flex;
+    gap: 40px;
+}
+
+.headerResourcesBox {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.headerResourcesText {
+    color: var(--Blue-2, #1892AA);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.locationDropdown {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchBox {
+    border: none;
+    outline: none;
+}
+
+.desktopLogoWrap {
+    max-width: 320px;
+}
+
+.desktopLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.desktopHeaderInnerWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.desktopNavRightSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.headerSearchWrap {
+    margin-left: 41px;
+}
+
+.selectedStoreName {
+    color: var(--Blue-1, #203A71);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.storeLocationName {
+    color: var(--Black, #000);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.availableStoreListingModal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #fff;
+    height: 80vh;
+    padding: 36px 45px;
+    z-index: 15;
+    display: none;
+    scroll-behavior: smooth;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.availableStoreListingModal::-webkit-scrollbar {
+    width: 6px;
+}
+
+.selectStoreModalTopBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 12px 0 36px 0;
+}
+
+.selectStoreModalHeading {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 56px;
+}
+
+.zipCodeSearchBarWrapper {
+    padding: 12px 16px 11px 16px;
+    border: 1px solid var(--black-color);
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.zipCodeSearchInput {
+    border: none;
+    outline: none;
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.closeSelectStoreModal {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.selectedStoreCard {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: rgba(212, 184, 106, 0.1);
+    padding: 40px 35px 31px 35px;
+}
+
+.selectedStoreCardInnerWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.selectedStoreInfoWrap {
+    max-width: 352px;
+}
+
+.selectedStoreTitle {
+    color: var(--black-color);
+    font-family: "Urbane-Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.selectedStoreLocationPara {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.selectedStoreStarPara {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.selectedStoreCity {
+    color: var(--Blue-1, #203A71);
+    font-family: Lexend;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.selectedStoreStarName {
+    color: #AE8D32;
+    text-align: right;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+
+.selectedStorePhoneWrap {
+    margin-top: 32px;
+}
+
+.selectedStorePhone {
+    color: var(--black-color);
+    font-family: Lexend;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.selectedStorePhone:hover {
+    color: var(--black-color);
+}
+
+.availabelStoreCard {
+    border-bottom: 1px solid #000;
+    padding: 40px 35px 31px 35px;
+}
+
+.availableStoreInfoWrap {
+    max-width: 352px;
+}
+
+.availableStoreInfoWrap {
+    max-width: 352px;
+}
+
+
+
+.availableStoreTitle {
+    color: var(--black-color);
+    font-family: "Urbane-Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.availableStoreLocationPara {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.availableStorePhone {
+    color: var(--black-color);
+    font-family: "Urbane-Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.availableStorePhone:hover {
+    color: var(--black-color);
+}
+
+.availableStoreSecondaryPart {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.availableAndSelectedStoreCardsContainer {
+    height: 80%;
+    overflow-y: auto;
+    box-sizing: content-box;
+    scrollbar-width: thin;
+}
+
+
+.availableAndSelectedStoreCardsContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.availableAndSelectedStoreCardsContainer::-webkit-scrollbar-track {
+    background: #D9D9D9;
+}
+
+.availableAndSelectedStoreCardsContainer::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.availableAndSelectedStoreCardsContainer::-webkit-scrollbar-button {
+    display: none;
+}
+
+.store-item {
+    border-bottom: 1px solid #AE8D32;
+    padding: 10px;
+}
+
+.store-details strong {
+    font-family: 'Urbane-Semibold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--gold-color);
+}
+
+.storeLocationPhone {
+    font-family: 'Urbane-Semibold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+
+
+/* desktop nav css ends here */
+
+/* mobile nav css starts here */
+.mobileLogoWrap {
+    max-width: 260px;
+}
+
+.mobileLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobileHeaderInnerWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 25px;
+}
+
+.mobileHeader {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.mobileLogoWrap {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.burgerLine {
+    background-color: #000;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 10px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* the cross effect  */
+.cross .lineOne {
+    transform: rotate(45deg) translateY(15px);
+}
+
+.cross .lineThree {
+    transform: rotate(-45deg) translateY(-17px);
+}
+
+.cross .lineTwo {
+    opacity: 0;
+}
+
+.mobileSearchIconWrapper {
+    cursor: pointer;
+    max-width: 24px;
+}
+
+.mobileSearchIconWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobileBurgerIconAndSearchIconWrap {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.mobileSearchBarWrapper {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 24px 16px 24px;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.mobileSearchBar {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    width: 100%;
+    outline: none;
+    border-top: 1px solid var(--black-color);
+    border-left: 1px solid var(--black-color);
+    border-bottom: 1px solid var(--black-color);
+    border-right: 1px solid var(--black-color);
+    padding: 8px 24px;
+}
+
+/* mobile nav css ends here */
+
+/* mobile mega menu css starts here */
+.mobileNavMegaMenu {
+    position: sticky;
+    left: 0;
+    top: 120px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    z-index: 20;
+    box-shadow: 0 0px 5px -10px rgba(0, 0, 0, 0.2);
+    height: 90vh;
+    overflow-y: auto;
+    display: none;
+}
+
+/* close icon */
+.mobileMenuCrossIcon {
+    max-width: 14px;
+    cursor: pointer;
+}
+
+/* wrapper */
+.menuWrap {
+    margin-top: 30px;
+}
+
+/* main menu links */
+
+/* bottom links */
+.menuBottomContainer {
+    margin-top: 80px;
+}
+
+
+
+
+
+
+/* submenu top bar */
+.mobileMenuTopBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mainMenuIconWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mainMenuIconText {
+    color: var(--gold-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.subMenuContentWrap {
+    margin-top: 46px;
+}
+
+.subMenuHeading {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.subMenuLink {
+    padding: 12px 0;
+}
+
+.subMenuLinkText {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.subMenuLinkText:hover {
+    color: #FFF;
+}
+
+.mobileBoatsMenuCard {
+    border: 1px solid var(--black-color);
+    background: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    height: 100%;
+}
+
+.mobileBoatsMenuCard img {
+    max-width: 140px;
+    max-height: 41px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* brand logos */
+.mobileLogoWrapper {
+    border-radius: 2px;
+    border: 1px solid #EEE;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 80px;
+}
+
+.mobileLogoInnerWrap {
+    max-width: 139px;
+}
+
+.mobileLogoInnerWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* submenus hidden by default */
+.submenu-boats,
+.submenu-rentals,
+.submenu-service,
+.submenu-storage,
+.submenu-resources {
+    display: none;
+}
+
+.mobileMenuLinkList {
+    list-style: none
+}
+
+.mobileMenuLinkList li {
+    margin-bottom: 24px;
+}
+
+.mobileMenuLargeLink {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.mobileMenuLargeLink:hover {
+    color: var(--black-color);
+}
+
+.secondMobileMenuList {
+    margin-top: 64px;
+}
+
+.mobileMenuSmallLink {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.mobileMenuSmallLink:hover {
+    color: var(--black-color);
+}
+
+
+/* mobile mega menu css ends here */
+
+
+/* mega menus css starts here */
+.boatsSalesMegaMenu {
+    background-color: #fff;
+    padding: 38px 0 88px 0;
+    position: fixed;
+    left: 0;
+    top: 89px;
+    width: 100%;
+    z-index: 15;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.boatSalesMenuList {
+    list-style: none;
+}
+
+.boatSalesMenuList li {
+    margin-bottom: 16px;
+}
+
+.megaMenuLink {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.megaMenuLink:hover {
+    color: var(--black-color);
+}
+
+.boatSalesSecondList {
+    margin-top: 80px;
+}
+
+
+.boatSalesMenuCard {
+    position: relative;
+    margin: 0 8px;
+    padding-top: 50%;
+    margin-bottom: 16px;
+}
+
+.boatSalesMenuCard .boatSalesMenuMedia {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boatSalesMenuLogoWrap {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    max-width: 120px;
+}
+
+.boatSalesMenuLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.activeNavTab {
+    position: relative;
+}
+
+.activeNavTab::after {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--gold-color);
+}
+
+.desktopNavLinkList {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.boatSalesMenuCrossIcon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.servicesMegaMenu {
+    background-color: #fff;
+    padding: 38px 0 80px 0;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    z-index: 15;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.serviceMenuCard {
+    padding: 0 16px;
+}
+
+.serviceMenuCardImageWrap {
+    position: relative;
+    padding-top: 50%;
+}
+
+.servicePageSeparator {
+    background-color: #000;
+    margin-bottom: 64px;
+}
+
+.serviceMenuCardImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceMenuCardContentWrap {
+    margin-top: 8px;
+}
+
+.serviceMenuCardTitle {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.serviceMenuCrossIcon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.selectStoreMenu {
+    background-color: #fff;
+    padding: 40px 60px 56px 60px;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    max-width: 480px;
+    z-index: 15;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+    display: none;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    pointer-events: none;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal {
+    z-index: 1050;
+}
+
+
+
+.selectedStoreStarPara img {
+    width: 18px;
+    height: 18px;
+}
+
+.selectedStoreStarName {
+    font-weight: 600;
+    color: #cfa548;
+}
+
+
+
+.modal-content {
+    pointer-events: auto;
+}
+
+.specialBanner {
+    background-color: #222222;
+    padding: 22px 23px 8px 23px;
+}
+
+.specialBoatTitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.selectedstoreName {
+    color: var(--Blue-1, #203A71);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.selectedStoreAddress {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.selectedStorePhoneNumber {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.selectedStoreInfoPara {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.changeSelectedLocationBtnWrap {
+    margin-top: 40px;
+}
+
+.resourcesMegaMenu {
+    position: fixed;
+    right: 0;
+    top: 80px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 56px 80px 20px 40px;
+    z-index: 15;
+    width: 320px;
+    transition: all 0.4s;
+    transform: translateX(100%);
+}
+
+.togglerClassForResourcesMenu {
+    transform: translateX(0);
+}
+
+.resourcesBoldLinkList {
+    list-style: none;
+}
+
+.resourcesBoldLink {
+    color: var(--black-color);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.resourcesBoldLink:hover {
+    color: var(--black-color);
+}
+
+.resourcesBoldLinkList li {
+    margin-bottom: 24px;
+    text-align: right;
+}
+
+.resourcesLink {
+    color: var(--black-color);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* mega menus css ends here */
+
+
+/* footer css starts here */
+.footerWrapper {
+    border-top: 1px solid #EEE;
+}
+
+.newsLetterSection {
+    padding: 80px 0;
+}
+
+.newsLetterTextWrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsLetterTextInnerWrap {
+    max-width: 600px;
+}
+
+.socailWrap {
+    text-align: center;
+}
+
+.socailHeading {
+    color: var(--Blue-1);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.socailIconsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.socialIconWrap {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--Blue-2);
+}
+
+.socialIconWrap i {
+    color: var(--White);
+    font-size: 20px;
+}
+
+.newsLetterFormWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formField {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.formFieldWrap {
+    border-radius: 30px;
+    border: 1px solid var(--Light-Gray);
+    background: #FAFAFA;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+}
+
+.footerSiteMapSection {
+    background-color: #FAFAFA;
+    padding: 80px 0;
+}
+
+.footerLogoWrapper {
+    max-width: 320px;
+}
+
+.footerLogoWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.siteMapHeadingWrap {
+    margin-bottom: 24px;
+}
+
+.siteMapHeading {
+    color: var(--Blue-1);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.siteMapLink {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.siteMapLink:hover {
+    color: var(--Black);
+}
+
+.siteMapLinkList {
+    list-style: none;
+}
+
+.siteMapLinkList li {
+    margin-bottom: 16px;
+}
+
+.discalimerSection {
+    background-color: #FAFAFA;
+    padding: 64px 0 80px 0;
+    border-top: 1px solid #D9D9D9;
+}
+
+.disclaimerWrapper {
+    max-width: 720px;
+}
+
+.disclaimerWrapper a {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.disclaimerWrapper a:hover {
+    color: var(--Black);
+}
+
+
+.footerBottomList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 4px;
+    flex-wrap: wrap;
+}
+
+.footerListItem {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.footerListItem:hover{
+    color: var(--Black);
+}
+
+.footerBottomInnerWrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footerBrandLink {
+    color: var(--Black);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.footerBrandLink:hover{
+    color: var(--Black);
+}
+
+.footerListItem{
+    position: relative;
+}
+
+.footerListItem::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: -15px;
+    background: var(--Black);
+    opacity: 0.6;
+    width: 1px;
+    height: 15px;
+    transform: translateY(-50%)
+}
+
+.footerBottomList li:last-child::after {
+    display: none;
+}
+
+.footerBottomWrapper{
+    padding: 7px 0;
+}
+
+/* footer css ends here */
+
+
+/* home page css starts here */
+.homeHeaderSection {
+    position: relative;
+    padding-top: 56%;
+    min-height: 450px;
+}
+
+.homeHeaderMedia {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.headerHeading {
+    color: var(--White);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.headerBtnWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.exclusiveCard {
+    padding: 0 20px;
+}
+
+.exclusiveImageWrap {
+    position: relative;
+    padding-top: 67%;
+}
+
+.exclusiveImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.exclusiveContentWrap {
+    border-right: 1px solid var(--Light-Gray, #EEE);
+    border-bottom: 1px solid var(--Light-Gray, #EEE);
+    border-left: 1px solid var(--Light-Gray, #EEE);
+    background: #FAFAFA;
+    padding: 40px 40px 48px 40px;
+}
+
+.exclusiveCardTitle {
+    color: var(--Blue-1);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.exclusiveParaWrap {
+    margin: 24px 0 32px 0;
+}
+
+.sectionTextHeaderSection {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.homeBrandCarouselWrap {
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.homeBrandCarouselCard {
+    position: relative;
+    padding-top: 145%;
+}
+
+.homeBrandMainImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeBrandContent {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.homeBrandLogoWrap {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.homeBrandLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.marineDifferenceSection {
+    margin: 100px 0 80px 0;
+    background-color: #FAFAFA;
+    padding: 74px 0;
+}
+
+.marineDifferenceCard {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.marineDifferenceTitle {
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.newArrivalHeaderWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.newArrivalHeadingAndBtnWrap {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newArrivalCard {
+    padding: 0 20px;
+}
+
+.newArrivalImageWrap {
+    position: relative;
+    padding-top: 67%;
+}
+
+.newArrivalImageWrap .newArrivalImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.newArrivalLengthWrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 15px 21px 7px 21px;
+    text-align: center;
+}
+
+.newArrivalLength {
+    color: var(--Blue-2);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.newArrivalContentWrap {
+    margin-top: 8px;
+}
+
+.newArrivalTitle {
+    color: var(--Blue-1);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.newArrivalPricing {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.newArrivalOriginalPrice {
+    color: var(--Blue-1);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.newArrivalMontlyPrice {
+    color: var(--Blue-1);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.newArrivalInfoPara {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--Blue-2);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.newArrivalBeforeLine {
+    position: relative;
+}
+
+.newArrivalBeforeLine::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 15px;
+    background-color: var(--Blue-2);
+}
+
+.walkerLocationSection {
+    margin: 120px 0;
+}
+
+.homeLocationCard {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.homeLocationImage {
+    position: relative;
+    padding-top: 50%;
+}
+
+.homeLocationImage img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeLocationContent {
+    margin-top: 8px;
+}
+
+.homeLocationTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.otherLinkCard {
+    max-width: 624px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.otherLinkContentWrap {
+    max-width: 560px;
+}
+
+.otherLinkTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.factorySection {
+    margin: 80px 0;
+}
+
+.factoryCard {
+    padding: 0 20px;
+}
+
+.factoryImageWrap {
+    position: relative;
+    padding-top: 66%;
+}
+
+.factoryImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.factoryContentWrap {
+    margin-top: 16px;
+    max-width: 720px;
+}
+
+.factoryContentTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.colorTag {
+    color: var(--Blue-2, #1892AA);
+    text-align: center;
+    font-family: "LTC Metropolitan Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.homeEventImageWrap {
+    position: relative;
+    padding-top: 50%;
+}
+
+.homeEventImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeEventDatePara {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    color: var(--Blue-2);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 24px;
+    background-color: #fff;
+}
+
+.homeEventContentWrap {
+    margin-top: 36px;
+}
+
+.homeEventTitle {
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.btnWrap {
+    margin-top: 40px;
+}
+
+.homeEventCarousel {
+    position: relative;
+}
+
+.homeEventCarousel .owl-prev {
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.homeEventCarousel .owl-next {
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.homeAwardsSection {
+    margin: 80px 0;
+}
+
+.homeAwardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.squareAwardItem {
+    max-width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squareAwardItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.circleAwardItem {
+    max-width: 133px;
+    height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circleAwardItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* home page css ends here */
