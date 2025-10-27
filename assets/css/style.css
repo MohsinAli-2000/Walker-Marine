@@ -1804,7 +1804,8 @@ a:hover {
 }
 
 .homeEventContentWrap {
-    margin-top: 36px;
+    max-width: 600px;
+    margin: 36px auto 0 auto;
 }
 
 .homeEventTitle {
