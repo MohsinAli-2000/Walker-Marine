@@ -197,6 +197,27 @@ a:hover {
     line-height: 24px;
 }
 
+.regularWhitePara {
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.colorTagWhite {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "LTC Metropolitan Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
 /* common css ends here */
 
 /* desktop nav css starts here */
@@ -3212,8 +3233,196 @@ a:hover {
     line-height: 24px;
 }
 
-.repowerHeadingWrap{
+.repowerHeadingWrap {
     margin-bottom: 64px;
 }
 
 /* repower page ends starts here */
+
+/* blog listing page css starts here */
+.blogHeaderSection {
+    position: relative;
+    padding-top: 23%;
+    min-height: 400px;
+}
+
+.blogHeaderSection::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.blogHeaderSection img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogHeaderContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    z-index: 3;
+}
+
+.blogListingSection {
+    margin-top: 88px;
+    margin-bottom: 64px;
+}
+
+.topicListSearchWrap {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    border-radius: 30px;
+    border: 1px solid #D9D9D9;
+    background-color: #FAFAFA;
+    padding: 13px 16px;
+}
+
+.blogListingSearch {
+    border: none;
+    outline: none;
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.topicListContainer {
+    margin-top: 40px;
+}
+
+.checkboxGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px 16px;
+    font-family: Lexend;
+}
+
+.checkboxItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.checkboxItem input {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: var(--white);
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.checkboxItem input:checked {
+    background-color: var(--gold-color);
+}
+
+.checkboxItem input:checked::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.blogListingImageWrap {
+    position: relative;
+    padding-top: 50%;
+    overflow: hidden;
+}
+
+.blogListingImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogListingCard {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.blogListingCardTextWrap {
+    margin-top: 16px;
+}
+
+.blogListingCardTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.blogListingCardPara {
+    color: var(--black-color);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.blogDetailBtn {
+    color: var(--Blue-2);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.secondaryColorTag {
+    color: var(--Blue-1);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* blog listing page css ends here */
