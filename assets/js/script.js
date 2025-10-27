@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     // ================================++++++++++++++++++++====================
     // mega menu code starts here
     // Helper function to close all menus
@@ -127,7 +127,7 @@ $(document).ready(function(){
         $(".submenu-resources").fadeIn();
     });
 
-    $(".mobileSearchIconWrapper").on("click", function(){
+    $(".mobileSearchIconWrapper").on("click", function () {
         $(".mobileSearchBarWrapper").fadeToggle()
     })
     // mobile nav code ends here
@@ -159,7 +159,7 @@ $(document).ready(function(){
         $('.homeEventCarousel').owlCarousel({
             loop: true,
             margin: 20,
-            navText:['<img src="/assets/images/home/prev-arrow.webp" alt="prev"/>', '<img src="/assets/images/home/next-arrow.webp" alt="next"/>'],
+            navText: ['<img src="/assets/images/home/prev-arrow.webp" alt="prev"/>', '<img src="/assets/images/home/next-arrow.webp" alt="next"/>'],
             nav: true,
             dots: false,
             responsive: {
@@ -176,5 +176,25 @@ $(document).ready(function(){
         });
     }
     // home page code ends here
+    // ================================++++++++++++++++++++====================
+
+
+    // ================================++++++++++++++++++++====================
+    // sell trade code starts here
+    const uploadButton = document.getElementById('uploadButton');
+    const fileInput = document.getElementById('fileInput');
+    const fileNameSpan = document.getElementById('fileName');
+
+    if (uploadButton && fileInput && fileNameSpan) {
+        uploadButton.addEventListener('click', function () {
+            fileInput.click();
+        });
+
+        fileInput.addEventListener('change', function () {
+            const fileName = this.files[0]?.name || "No file selected";
+            fileNameSpan.textContent = fileName;
+        });
+    }
+    // sell trade code ends here
     // ================================++++++++++++++++++++====================
 })

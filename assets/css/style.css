@@ -120,6 +120,31 @@ a:hover {
     color: var(--White);
 }
 
+.secondaryBlueBtn {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: var(--Blue-2);
+    padding: 12px 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+    outline: none;
+    border: 1px solid var(--Blue-2);
+}
+
+.secondaryBlueBtn:hover {
+    color: var(--White);
+}
+
 .exclusiveSection {
     margin: 64px 0 120px 0;
 }
@@ -1220,6 +1245,7 @@ a:hover {
     background: #FAFAFA;
     padding: 12px 24px;
     margin-bottom: 16px;
+    margin: 0 10px 16px 10px;
 }
 
 .footerSiteMapSection {
@@ -2363,12 +2389,173 @@ a:hover {
     line-height: 32px;
 }
 
-.ourMissionAndValueSection{
+.ourMissionAndValueSection {
     margin: 80px 0;
 }
 
-.customMargin{
+.customMargin {
     margin-bottom: 80px;
 }
 
 /* about page css ends here */
+
+/* sell trade page css starts here */
+.secondaryCommonHeaderSection {
+    position: relative;
+    padding-top: 29%;
+}
+
+.secondaryCommonHeaderSection .secondaryCommonHeaderMedia {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.weBuySection {
+    margin: 64px 0 120px 0;
+}
+
+.weBuyCard {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weBuyInnerWrap {
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buyStep {
+    color: var(--Blue-2);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 100px;
+}
+
+.buyStepTitle {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.whySellHeadingWrap {
+    margin-bottom: 56px;
+}
+
+.whySellWithUsItem {
+    margin-bottom: 68px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.whySellTextWrap {
+    max-width: 200px;
+}
+
+.whySellText {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.promiseSection {
+    margin-bottom: 80px;
+}
+
+.promiseImageWrap {
+    position: relative;
+    padding-top: 63%;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.promiseImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promiseTextWrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.promiseCardTitle {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.promiseTextInnerWrap {
+    max-width: 420px;
+}
+
+.formInnerHeading {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 28px 0 40px 0;
+}
+
+.customMarginForFormField {
+    margin: 0 10px 16px 10px;
+}
+
+.secondaryMainFormWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.fileUploadFieldWrap {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #EEE;
+    background-color: #FAFAFA;
+}
+
+.uploadContainer {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.resumeFormInput {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+/* sell trade page css ends here */
