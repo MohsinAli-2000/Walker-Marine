@@ -250,4 +250,45 @@ $(document).ready(function () {
     infoTabs.forEach((tab, i) => tab.addEventListener("click", () => showTab(i)));
     // service page code ends here
     // ================================++++++++++++++++++++====================
+
+
+    // ================================++++++++++++++++++++====================
+    // location  page code starts here
+    if ($('.locationTemplateCarousel').length) {
+        $('.locationTemplateCarousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    }
+    // location  page code ends here
+    // ================================++++++++++++++++++++====================
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+    Fancybox.bind("[data-fancybox]", {
+        Toolbar: {
+            display: [
+                "slideShow",
+                "fullscreen",
+                "download",
+                "thumbs",
+                "close",
+            ],
+        },
+        animated: true,
+        dragToClose: true,
+    });
+});
