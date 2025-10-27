@@ -275,6 +275,36 @@ $(document).ready(function () {
     }
     // location  page code ends here
     // ================================++++++++++++++++++++====================
+
+    // ================================++++++++++++++++++++====================
+    // brand page code starts here
+    if ($('.brandCarousel').length) {
+        $('.brandCarousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            navText: ['<img src="./assets/images/home/prev-arrow.webp" alt="prev"/>', '<img src="./assets/images/home/next-arrow.webp" alt="next"/>'],
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+    }
+
+    $(".brandFaqHeaderWrap").on("click", function () {
+        $(this).next(".brandAnswerWrapper").slideToggle()
+        $(this).find("img").toggleClass("rotateFaqIcon")
+    })
+    // brand page code ends here
+    // ================================++++++++++++++++++++====================
 })
 
 document.addEventListener("DOMContentLoaded", function () {
