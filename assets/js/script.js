@@ -248,6 +248,19 @@ $(document).ready(function () {
 
     // add click events
     infoTabs.forEach((tab, i) => tab.addEventListener("click", () => showTab(i)));
+
+
+    $(".mobileServiceCardHeader").on("click", function () {
+        const card = $(this).closest(".mobileServicesCard");
+        const icon = $(this).find(".mobileServiceDropIcon");
+
+        $(".mobileServicesCard").not(card).removeClass("activeMobileService");
+        $(".mobileServiceDropIcon").not(icon).removeClass("rotateMobileServiceIcon");
+
+
+        card.toggleClass("activeMobileService");
+        icon.toggleClass("rotateMobileServiceIcon");
+    });
     // service page code ends here
     // ================================++++++++++++++++++++====================
 
