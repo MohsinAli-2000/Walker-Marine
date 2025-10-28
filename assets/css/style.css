@@ -309,6 +309,9 @@ a:hover {
 
 .headerSearchWrap {
     margin-left: 41px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .selectedStoreName {
@@ -590,7 +593,7 @@ a:hover {
 
 /* mobile nav css starts here */
 .mobileLogoWrap {
-    max-width: 260px;
+    max-width: 240px;
 }
 
 .mobileLogoWrap img {
@@ -663,7 +666,7 @@ a:hover {
 
 .mobileSearchBarWrapper {
     position: fixed;
-    top: 64px;
+    top: 94px;
     left: 0;
     width: 100%;
     background-color: #fff;
@@ -743,7 +746,7 @@ a:hover {
 }
 
 .mainMenuIconText {
-    color: var(--gold-color);
+    color: var(--Blue-2);
     font-family: Lexend;
     font-size: 16px;
     font-style: normal;
@@ -758,10 +761,10 @@ a:hover {
 .subMenuHeading {
     color: var(--Black);
     font-family: Lexend;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 32px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .subMenuLink {
@@ -778,22 +781,22 @@ a:hover {
 }
 
 .subMenuLinkText:hover {
-    color: #FFF;
+    color: var(--Black);
 }
 
 .mobileBoatsMenuCard {
-    border: 1px solid var(--Black);
-    background: var(--White);
+    border: 1px solid #D9D9D9;
+    background: #FAFAFA;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 12px 16px;
     height: 100%;
+    min-height: 72px;
 }
 
 .mobileBoatsMenuCard img {
-    max-width: 140px;
-    max-height: 41px;
+    max-width: 88px;
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -841,10 +844,10 @@ a:hover {
 .mobileMenuLargeLink {
     color: var(--Black);
     font-family: Lexend;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 32px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .mobileMenuLargeLink:hover {
@@ -3626,3 +3629,226 @@ a:hover {
 }
 
 /* event detial page css ends here */
+
+@media(max-width: 1700px) {
+    .desktopHeader {
+        padding: 20px 40px 21px 40px;
+    }
+
+    .desktopLogoWrap {
+        max-width: 250px;
+    }
+
+    .desktopNavLinkList {
+        gap: 24px;
+    }
+
+    .desktopNavRightSection {
+        gap: 30px;
+    }
+
+    .centralNavLink {
+        letter-spacing: 0.4px;
+    }
+}
+
+
+@media(max-width: 1500px) {
+    .desktopLogoWrap {
+        max-width: 200px;
+    }
+}
+
+
+@media(max-width: 1100px) {
+    .desktopLogoWrap {
+        max-width: 140px;
+    }
+
+    .centralNavLink {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+
+    .desktopNavRightSection {
+        gap: 18px;
+    }
+
+    .selectStoreAndResourcesOptionWrap {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .desktopHeader {
+        padding: 20px 15px 21px 15px;
+    }
+}
+
+
+@media (max-width: 1350px) {
+    .desktopLogoWrap {
+        max-width: 200px;
+    }
+
+    .desktopNavLinkList {
+        gap: 15px;
+    }
+
+    .desktopNavRightSection {
+        gap: 24px;
+    }
+
+    .selectStoreAndResourcesOptionWrap {
+        display: flex;
+        gap: 20px;
+    }
+
+    .centralNavLink {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .desktopLogoWrap {
+        max-width: 150px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .headerSearchWrap {
+        margin-left: 0;
+    }
+
+    .headerResourcesBox {
+        gap: 10px;
+    }
+
+    .desktopHeaderInnerWrap {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .desktopLogoWrap {
+        max-width: 100px;
+    }
+
+    .desktopNavLinkList {
+        gap: 10px;
+    }
+
+    .homeEventCarousel .owl-prev {
+        left: 0;
+    }
+
+    .homeEventCarousel .owl-next {
+        right: 0;
+    }
+
+    .exclusiveContentWrap {
+        padding: 30px 15px 28px 15px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .desktopHeader {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
+    }
+
+    .footerLogoWrapper {
+        margin: 0 auto 40px auto;
+    }
+
+    .exclusiveSection {
+        margin: 44px 0 60px 0;
+    }
+
+    .headerHeading {
+        font-family: Lexend;
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+    .headerBtnWrap {
+        margin-top: 30px;
+    }
+
+    .marineDifferenceSection {
+        margin: 60px 0 40px 0;
+    }
+
+    .marineDifferenceSection {
+        padding: 44px 0;
+    }
+
+    .walkerLocationSection {
+        margin: 60px 0;
+    }
+
+    .factorySection {
+        margin: 40px 0;
+    }
+
+    .mainHeading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .footerSiteMapSection {
+        padding: 40px 0;
+    }
+
+    .discalimerSection {
+        padding: 44px 0 40px 0;
+    }
+
+    .footerBottomInnerWrap {
+        gap: 20px;
+    }
+
+    .newArrivalHeadingAndBtnWrap {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .newArrivalHeadingAndBtnWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeLocationCard {
+        padding: 0 8px;
+    }
+}
+
+@media(max-width: 576px) {
+    .headerHeading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .mainHeading {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .homeLocationTitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width: 400px) {
+    .mobileLogoWrap {
+        max-width: 140px;
+    }
+}
