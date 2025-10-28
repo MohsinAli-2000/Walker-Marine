@@ -3783,9 +3783,9 @@ a:hover {
 }
 
 
-@media (max-width: 1350px) {
+@media (max-width: 1370px) {
     .desktopLogoWrap {
-        max-width: 200px;
+        max-width: 150px;
     }
 
     .desktopNavLinkList {
@@ -3802,7 +3802,7 @@ a:hover {
     }
 
     .centralNavLink {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0px;
     }
 
@@ -3823,6 +3823,11 @@ a:hover {
 
     .desktopHeaderInnerWrap {
         gap: 15px;
+    }
+
+    .centralNavLink {
+        font-size: 12px;
+        letter-spacing: 0px;
     }
 
     .homeEventCarousel .owl-prev {
