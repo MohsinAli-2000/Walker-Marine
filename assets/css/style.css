@@ -1916,6 +1916,7 @@ a:hover {
 .commonImageWrap {
     position: relative;
     padding-top: 75%;
+    min-height: 400px;
 }
 
 .commonImageWrap img {
@@ -3034,6 +3035,7 @@ a:hover {
 .locationPageHeaderMediaWrap {
     position: relative;
     padding-top: 42%;
+    min-height: 450px;
 }
 
 .locationPageHeaderMedia {
@@ -3240,6 +3242,7 @@ a:hover {
 .repowerHeaderMediaWrapper {
     position: relative;
     padding-top: 31%;
+    min-height: 400px;
 }
 
 .repowerHeaderMediaWrapper .repowerHeaderMedia {
@@ -3263,7 +3266,7 @@ a:hover {
 }
 
 .repowerInfoSection {
-    padding: 44px 0;
+    padding: 44px 15px;
     background-color: #FAFAFA;
 }
 
@@ -3442,7 +3445,7 @@ a:hover {
 }
 
 .checkboxItem input:checked {
-    background-color: var(--gold-color);
+    background-color: var(--Blue-1);
 }
 
 .checkboxItem input:checked::after {
@@ -3950,6 +3953,93 @@ a:hover {
         padding: 40px 20px 56px 20px;
         background-color: #FAFAFA;
     }
+
+    .promiseSection {
+        margin-bottom: 40px;
+    }
+
+    .locationMapAndAddressSection {
+        margin: 60px 0 40px 0;
+    }
+
+    .brandCarousel .owl-prev {
+        left: 0;
+    }
+
+    .brandCarousel .owl-next {
+        right: 0;
+    }
+
+    .brandCarouselSection {
+        margin: 40px 0;
+    }
+
+    .locationTemplateCarousel {
+        margin: 44px 0;
+    }
+
+    .blogListingSection {
+        margin-top: 48px;
+        margin-bottom: 44px;
+    }
+
+    .blogListingCardTextWrap {
+        text-align: center;
+    }
+
+    .eventListingCardSection {
+        margin-bottom: 60px;
+    }
+
+    .boatAtThisEventSection {
+        margin: 44px 0 60px 0;
+    }
+
+    .mercuryOutBoardModelSection {
+        margin: 44px 0 40px 0;
+    }
+
+    .repowerHeadingWrap {
+        margin-bottom: 40px;
+    }
+
+    .staffCardSection {
+        margin-bottom: 60px;
+    }
+
+    .reviewCardInnerWrap {
+        text-align: center;
+        padding: 40px 15px 27px 15px;
+    }
+
+    .partsInfoBarWrapper {
+        margin-top: 40px;
+    }
+
+    .whatInStoreSection {
+        margin: 44px 0 60px 0;
+    }
+
+    .commonHeaderSection {
+        min-height: 400px;
+    }
+
+    .typicalCoverageSection {
+        margin-bottom: 40px;
+    }
+
+    .expectAtProshopSection {
+        margin: 40px 0 64px 0;
+    }
+
+    .whereToFindProShop {
+        margin-bottom: 40px;
+    }
+
+    .expectAtProShopHeadingWrap {
+        margin-bottom: 42px;
+    }
+
 }
 
 @media(max-width: 767px) {
