@@ -180,23 +180,21 @@ $(document).ready(function () {
         $('.newArrivalCarousel').owlCarousel({
             loop: false,
             nav: false,
+            margin: 20,
             dots: false,
             responsive: {
                 0: {
                     items: 1.1,
-                    margin: 5,
                 },
                 600: {
                     items: 1.5,
-                    margin: 5,
                 },
                 1200: {
                     items: 3,
-                    margin: 30,
+                    margin: 40,
                 },
                 1400: {
                     items: 4,
-                    margin: 40,
                 }
             }
         });

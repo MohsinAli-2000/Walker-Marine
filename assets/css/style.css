@@ -4063,6 +4063,10 @@ a:hover {
 
     .newArrivalHeadingAndBtnWrap {
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .topServiceSection {
@@ -4184,16 +4188,13 @@ a:hover {
         margin-bottom: 42px;
     }
 
+    .newArrivalCarouselWrap{
+        margin-left: 5%;
+    }
+
 }
 
 @media(max-width: 767px) {
-    .newArrivalHeadingAndBtnWrap {
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .homeLocationCard {
         padding: 0 8px;
     }
