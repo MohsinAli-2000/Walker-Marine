@@ -305,6 +305,51 @@ $(document).ready(function () {
     })
     // brand page code ends here
     // ================================++++++++++++++++++++====================
+
+
+    // ================================++++++++++++++++++++====================
+    // event detail page code starts here
+    if ($('.eventDetailsCarousel').length) {
+        $('.eventDetailsCarousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    }
+
+    if ($('.memoriesCarousel').length) {
+        $('.memoriesCarousel').owlCarousel({
+            loop: true,
+            margin: 8,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1.4
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        });
+    }
+    // event detail page code ends here
+    // ================================++++++++++++++++++++====================
 })
 
 document.addEventListener("DOMContentLoaded", function () {
