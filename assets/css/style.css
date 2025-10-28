@@ -691,6 +691,127 @@ a:hover {
     padding: 8px 24px;
 }
 
+.mobileTopBar {
+    background-color: #203A71;
+    padding: 8px 24px;
+}
+
+.mobileTopBarInnerWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mobileLocationInfoWrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.mobilePhoneLocationWrap {
+    color: var(--White);
+    text-align: right;
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.mobileTopBarPhone {
+    color: var(--White);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.mobileTopBarPhone:hover {
+    color: var(--White);
+}
+
+.mobileSelectStoreMenu {
+    border: 1px solid #EEE;
+    background: #FFF;
+    max-width: 380px;
+    padding: 15px 15px 30px 15px;
+    position: absolute;
+    transform: translateX(-100%);
+    left: 0;
+    transition: all 0.4s;
+    box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.25);
+}
+
+.toggleClassForMobieSelectStoreMenu{
+    transform: translateX(0);
+}
+
+.mobileSelectedStoreTitle {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.mobileSelectStoreHeaderWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mobileBackArrow {
+    cursor: pointer;
+}
+
+.mobileSelectStoreAddressPara {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.mobileSelectStorePhone {
+    color: var(--Black);
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.mobileSelectStorePhone:hover {
+    color: var(--Black);
+}
+
+.mobileSelectStoreHoursHeading {
+    color: var(--Black, #000);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
 /* mobile nav css ends here */
 
 /* mobile mega menu css starts here */
@@ -3781,7 +3902,7 @@ a:hover {
         padding: 20px 15px 21px 15px;
     }
 
-    .newArrivalTitle{
+    .newArrivalTitle {
         font-size: 16px;
         text-align: left;
     }
@@ -3791,7 +3912,7 @@ a:hover {
         font-size: 16px;
     }
 
-    .newArrivalInfoPara{
+    .newArrivalInfoPara {
         gap: 20px;
     }
 

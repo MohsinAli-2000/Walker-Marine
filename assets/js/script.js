@@ -201,6 +201,14 @@ $(document).ready(function () {
             }
         });
     }
+
+    $("#mobileLocationInfoToggler").on("click", function () {
+        $(".mobileSelectStoreMenu").toggleClass("toggleClassForMobieSelectStoreMenu")
+    })
+
+    $(".mobileBackArrow").on("click", function () {
+        $(".mobileSelectStoreMenu").toggleClass("toggleClassForMobieSelectStoreMenu")
+    })
     // home page code ends here
     // ================================++++++++++++++++++++====================
 
