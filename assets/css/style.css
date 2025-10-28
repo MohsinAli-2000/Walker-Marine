@@ -3780,6 +3780,24 @@ a:hover {
     .desktopHeader {
         padding: 20px 15px 21px 15px;
     }
+
+    .newArrivalTitle{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .newArrivalOriginalPrice {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .newArrivalInfoPara{
+        gap: 20px;
+    }
+
+    .newArrivalBeforeLine::before {
+        left: -10px;
+    }
 }
 
 
